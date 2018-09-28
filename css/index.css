@@ -1,1 +1,175 @@
-@charset "utf-8";body{margin:0;padding:0;background-color:#036}header{width:100%;margin:0 auto}#bg{position:fixed;top:-50%;left:-50%;width:200%;height:200%;z-index:-100001}#bg video{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;min-width:50%;min-height:50%}#title{position:absolute;font-size:73.43px;font-family:"微软雅黑";color:#FFF;text-align:center;width:100%;height:60px;padding:20px;margin-top:50px;z-index:100000}a{color:#06F;text-decoration:none}.ib-main-wrapper{width:980px;margin:0 auto;margin-top:20px;overflow:hidden;outline:0}.ib-main{margin:0 auto;position:fixed}.ib-main a{float:left;width:150px;height:190px;position:relative;overflow:hidden;margin:0 0 2px 40px;cursor:pointer;background:#fff url(../images/thumb_bg.jpg) no-repeat center center;background-size:100% 100%;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.ib-main>a.ib-loading>span,.ib-main a.ib-loading>span{display:none}.ib-main a img{width:100%;height:100%;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.ib-main>a>span{display:block;position:absolute;width:100%;height:50px;font-family:"Microsoft YaHei";line-height:22px;text-align:center;font-size:14px;bottom:-53px;left:-4px;text-shadow:1px 1px 1px rgba(0,0,0,0.4);-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.ib-main a:hover>span{bottom:50px}.ib-main a:hover img{opacity:.2}.ib-main a:hover{background-size:100% 100%}.container{margin-top:200px;width:100%;position:fixed;height:300px;text-align:center;margin-left:0;margin-top:13%}.container h3 span{color:pink;font-size:41px;font-weight:100;font-family:"estrangelo edessa"!important}.content{width:700px;height:150px;text-align:center;margin:1% auto;position:relative;margin-bottom:0}.content1{width:980px;height:150px;text-align:center;margin:0 auto;position:relative;padding-left:0}.Introduction{width:650px;margin:0 auto;height:60px;position:relative;right:0;color:#FFF;font-size:15px;text-align:left;line-height:40px;text-shadow:-1px 0 #333,0px -1px #333,1px 0 #333,0 1px #333}.link{width:195px;height:50px;background:#09F;opacity:.5;position:relative;margin-left:380px}.link a{font-size:20px;font-family:"Microsoft YaHei";line-height:52px;text-align:center;color:#FFF;position:relative;padding:15px 35px 15px 35px;letter-spacing:4px}.link:hover{opacity:1}.footer{position:fixed;font-size:12px;font-family:"Microsoft YaHei";color:#FFF;text-align:center;width:100%;height:40px;bottom:0;background-color:#30394a;padding:20px;z-index:-100000}
+@charset "utf-8";
+body { margin: 0; padding: 0; background-color: #036; }
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+#bg {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	z-index: -100001;
+}
+#bg video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+}
+#title { position: absolute; font-size: 73.43px; font-family: "微软雅黑"; color: #FFF; text-align: center; width: 100%; height: 60px; padding: 20px; margin-top: 50px; z-index: 100000; }
+a {
+	color: #06F;
+	text-decoration: none;
+}
+.ib-main-wrapper {
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+	outline: none;/*height dynamic*/
+}
+.ib-main {
+	margin: 0 auto;
+	position: fixed;
+}
+.ib-main a {
+	float: left;
+	width: 150px;
+	height: 190px;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 2px 40px;
+	cursor: pointer;
+	background: #fff url(../images/thumb_bg.jpg) no-repeat center center;
+	background-size: 100% 100%;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.ib-main > a.ib-loading > span, .ib-main a.ib-loading > span {
+	display: none;
+}
+.ib-main a img {
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.ib-main > a > span {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	font-family: "Microsoft YaHei";
+	line-height: 22px;
+	text-align: center;
+	font-size: 14px;
+	bottom: -53px;
+	left: -4px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.ib-main a:hover > span {
+	bottom: 50px;/*字体浮动的高度*/
+}
+.ib-main a:hover img {
+	opacity: 0.2;/*覆盖颜色浓度*/
+}
+.ib-main a:hover {
+	background-size: 100% 100%;
+}
+.container {
+	margin-top: 200px;
+	width: 100%;
+	position: fixed;
+	height: 300px;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 13%;
+}
+.container h3 span {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 100;
+	font-family: "estrangelo edessa" !important;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#dfc6ef), to(rgba(51, 51, 51, 1)));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.content {
+	width: 700px;
+	height: 150px;
+	text-align: center;
+	margin: 1% auto;
+	position: relative;
+	margin-bottom: 0px;
+}
+.content1 {
+	width: 980px;
+	height: 150px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	padding-left: 0px;
+}
+.Introduction {
+	width: 650px;
+	margin: 0 auto;
+	height: 60px;
+	position: relative;
+	right: 0;
+	color: #FFF;
+	font-size: 15px;
+	text-align: left;
+	line-height: 40px;
+	text-shadow: -1px 0 #333,  0px -1px #333,  1px 0 #333,  0 1px #333;
+}
+.link {
+	width: 195px;
+	height: 50px;
+	background: #09F;
+	opacity: 0.5;
+	position: relative;
+	margin-left: 380px;
+}
+.link a {
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	line-height: 52px;
+	text-align: center;
+	color: #FFF;
+	position: relative;
+	padding: 15px 35px 15px 35px;
+	letter-spacing: 4px;
+}
+.link:hover {
+	opacity: 1;
+}
+.footer {
+	position: fixed;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	bottom: 0;
+	background-color: rgb(48,57,74);
+	padding: 20px;
+	z-index: -100000;
+}
