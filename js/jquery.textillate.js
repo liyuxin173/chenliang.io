@@ -1,3 +1,10 @@
+/*!
+ * texillate.js
+ * http://jschr.github.com/textillate
+ * MIT licensed
+ *
+ * Copyright (C) 2012-2013 Jordan Schroter
+ */
 
 (function ($) {
   "use strict"; 
