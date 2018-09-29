@@ -27,15 +27,11 @@ $(function () {
 		in: { effect: 'bounceInDown' }
 	});
 })
-
 </script>
 <style type="text/css">
 		@font-face {
-
 			font-family: digit;
-
 			src: url('digital-7_mono.ttf') format("truetype");
-
 		}
 div {width:100%;margin:0 auto;}
 .text1,.text2,.text3 {visibility:hidden;}
@@ -44,21 +40,16 @@ div {width:100%;margin:0 auto;}
 .text2 {font-family:microsoft yahei;font-size:16px;line-height:32px;text-shadow:0.1em 0.1em 0.1em rgba(231,57,140,0.8);}
 .text3 {font-family:microsoft yahei;text-align:center;font-size:36px;color:#900}
 </style>
-
 <body>
-	
-	
-	<p class="text2" style="z-index: 1040 !important;position: fixed;left: 10px;top: 10px;">
+<audio src="audio/LittleLove.mp3" id="Jaudio" class="media-audio"loop="loop" autoplay preload  style="display: none;"></audio>
+<p class="text2" style="z-index: 1040 !important;position: fixed;left: 10px;top: 10px;">
 相遇在地铁口  很高兴认识你
 	</p>
-
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace" class="svg-defs">
   <defs>
-
     <pattern id='image' width="1" height="1" viewBox="0 0 100 100" preserveAspectRatio="none">
       <image xlink:href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/78881/pattern_141.gif" width="100" height="100" preserveAspectRatio="none"></image>
     </pattern>
-
     <g id="shape-butterfly-1">
       <path class="path" fill="" clip-rule="evenodd" d="M8.65,2.85c0.934-0.2,2.15-0.333,3.65-0.4c1.534-0.1,2.667-0.083,3.4,0.05
 		c1.533,0.267,3.45,0.767,5.75,1.5c2.466,0.8,4.35,1.617,5.65,2.45c2.066,1.2,3.883,2.383,5.45,3.55c2.567,2.1,4.35,3.8,5.35,5.1
@@ -83,17 +74,11 @@ div {width:100%;margin:0 auto;}
 		c-0.033-2.367,0.034-4.117,0.2-5.25c0.3-1.034,0.483-1.8,0.55-2.3c0.167-0.867,0.034-1.533-0.4-2c-0.6-0.7-1.133-1.517-1.6-2.45
 		c-0.566-1.133-0.833-2.117-0.8-2.95c0.033-1.333,0.167-2.367,0.4-3.1c0.367-1.267,1.05-2.267,2.05-3
 		C4.417,4.25,6.483,3.317,8.65,2.85z"/>
-    <g>
-
-
+    </g>
   </defs>
 </svg>
-
-
 <section class="background"></section>
-
 <section class="scene3d">
-
   <div class="cube skybox">
     <var class="scale">
     <figure class="face front"></figure>
@@ -104,7 +89,6 @@ div {width:100%;margin:0 auto;}
     <figure class="face bottom"></figure>
     </var>
   </div>
-
   <div class="butterfly_container">
     <var class="rotate3d">
     <var class="scale">
@@ -113,18 +97,17 @@ div {width:100%;margin:0 auto;}
     <figure class="butterfly">
       <svg class="wing left" viewBox="0 0 50 100" class="icon shape-codepen">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
       <svg class="wing right" viewBox="0 0 50 100" class="icon shape-codepen">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
     </figure>
     </var>
     </var>
     </var>
     </var>
   </div>
-
-  <div class="butterfly_container" 
+  <div class="butterfly_container"
        style="margin-top: -150px; margin-left: 140px;
               -webkit-animation-duration: 5s;
               -moz-animation-duration: 5s;
@@ -143,7 +126,7 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: .75s;
                   animation-duration: .75s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
       <svg class="wing right" viewBox="0 0 50 100"
            style="-webkit-animation-duration: .75s;
                   -moz-animation-duration: .75s;
@@ -151,15 +134,14 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: .75s;
                   animation-duration: .75s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
     </figure>
     </var>
     </var>
     </var>
     </var>
   </div>
-
-  <div class="butterfly_container scale_half" 
+  <div class="butterfly_container scale_half"
        style="margin-top: -10px; margin-left: 50px;
               -webkit-animation-duration: 5s;
               -moz-animation-duration: 5s;
@@ -178,7 +160,7 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: .75s;
                   animation-duration: .75s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
       <svg class="wing right" viewBox="0 0 50 100"
            style="-webkit-animation-duration: .75s;
                   -moz-animation-duration: .75s;
@@ -186,15 +168,14 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: .75s;
                   animation-duration: .75s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
     </figure>
     </var>
     </var>
     </var>
     </var>
   </div>
-
-  <div class="butterfly_container scale_half" 
+  <div class="butterfly_container scale_half"
        style="margin-top: 20px;
               -webkit-animation-duration: 20s;
               -moz-animation-duration: 20s;
@@ -213,7 +194,7 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: 1s;
                   animation-duration: 1s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
       <svg class="wing right" viewBox="0 0 50 100"
            style="-webkit-animation-duration: 1s;
                   -moz-animation-duration: 1s;
@@ -221,15 +202,14 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: 1s;
                   animation-duration: 1s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
     </figure>
     </var>
     </var>
     </var>
     </var>
   </div>
-
-  <div class="butterfly_container scale_half" 
+  <div class="butterfly_container scale_half"
        style="margin-top: 100px; margin-left: 50px;
               -webkit-animation-duration: 20s;
               -moz-animation-duration: 20s;
@@ -248,7 +228,7 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: 1.2s;
                   animation-duration: 1.2s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
       <svg class="wing right" viewBox="0 0 50 100"
            style="-webkit-animation-duration: 1.2s;
                   -moz-animation-duration: 1.2s;
@@ -256,15 +236,14 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: 1.2s;
                   animation-duration: 1.2s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
     </figure>
     </var>
     </var>
     </var>
     </var>
   </div>
-
-  <div class="butterfly_container scale_third" 
+  <div class="butterfly_container scale_third"
        style="margin-top: 150px;
               -webkit-animation-duration: 20s;
               -moz-animation-duration: 20s;
@@ -283,7 +262,7 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: .35s;
                   animation-duration: .35s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
       <svg class="wing right" viewBox="0 0 50 100"
            style="-webkit-animation-duration: .35s;
                   -moz-animation-duration: .35s;
@@ -291,16 +270,15 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: .35s;
                   animation-duration: .35s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
     </figure>
     </var>
     </var>
     </var>
     </var>
   </div>
-
-  <div class="butterfly_container scale_third" 
-       style="margin-top: -250px; margin-left: 300px; 
+  <div class="butterfly_container scale_third"
+       style="margin-top: -250px; margin-left: 300px;
               -webkit-animation-duration: 4s;
               -moz-animation-duration: 4s;
               -ms-animation-duration: 4s;
@@ -318,7 +296,7 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: .45s;
                   animation-duration: .45s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
       <svg class="wing right" viewBox="0 0 50 100"
            style="-webkit-animation-duration: .45s;
                   -moz-animation-duration: .45s;
@@ -326,7 +304,7 @@ div {width:100%;margin:0 auto;}
                   -o-animation-duration: .45s;
                   animation-duration: .45s;">
         <use class="left" xlink:href="#shape-butterfly-1"></use>
-      </svg> 
+      </svg>
     </figure>
     </var>
     </var>
@@ -334,53 +312,18 @@ div {width:100%;margin:0 auto;}
     </var>
   </div>
 </section>
-
-
-<!--<div id="mainDiv">-->
-
-		<!--<div id="content" >-->
-
 			<div id="loveHeart" style="position: fixed;right: 20px !important;bottom: 0px !important;z-index: 1040 !important;">
-
 				<canvas id="garden" style="display: none;"></canvas>
-
 				<div id="words" style="position: fixed;right: 20px !important;bottom: 10px !important;z-index: 1040 !important;">
-
 					<div id="messages" style="position: fixed;bottom: 50px;right: -6px;">
-
 						Jiali, I have been knownin you
-
 						<div id="elapseClock" style="position: fixed;bottom: 10px;right: 10px;";></div>
-
 					</div>
-
-
 				</div>
-
 			</div>
-
-		<!--</div>-->
-<audio src="audio/LittleLove.mp3" id="Jaudio" class="media-audio" autoplay preload loop="loop" style="display: none;"></audio>
-	
-
-	<!--</div>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 <script type="text/javascript">
 function audioAutoPlay(id){
-
 var audio = document.getElementById(id),
     play = function(){
         audio.play();
@@ -396,74 +339,32 @@ document.addEventListener('YixinJSBridgeReady', function() {
 document.addEventListener("touchstart",play, false);
 }
 audioAutoPlay('Jaudio');
-		function   GoTo(){   
-  location.href="index.html";   
-  }   
-    
-  setTimeout("GoTo()",47900); 
-
 		var offsetX = $("#loveHeart").width() / 2;
-
 		var offsetY = $("#loveHeart").height() / 2 - 55;
-
 		var together = new Date();
-
 		together.setFullYear(2018, 7, 30);
-
 		together.setHours(20);
-
 		together.setMinutes(0);
-
 		together.setSeconds(0);
-
 		together.setMilliseconds(0);
-
-		
-
 		if (!document.createElement('canvas').getContext) {
-
 			var msg = document.createElement("div");
-
 			msg.id = "errorMsg";
-
-			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
-
 			document.body.appendChild(msg);
-
 			$("#code").css("display", "none")
-
 			$("#copyright").css("position", "absolute");
-
 			$("#copyright").css("bottom", "10px");
-
 		    document.execCommand("stop");
-
 		} else {
-
 			setTimeout(function () {
-
 				startHeartAnimation();
-
 			}, 5000);
-
-
-
 			timeElapse(together);
-
 			setInterval(function () {
-
 				timeElapse(together);
-
 			}, 500);
-
-
-
 			adjustCodePosition();
-
 			$("#code").typewriter();
-
 		}
-
 	</script>
-
 </html>
